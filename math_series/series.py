@@ -22,3 +22,6 @@ def sum_series(n,para2,para3):
         return para3   
      return  sum_series(n-1,para2,para3)+sum_series(n-2,para2,para3)
 
+print(fibonacci(7))
+print(lucas(7))
+print(sum_series(7,0,1))
